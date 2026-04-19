@@ -1,17 +1,56 @@
-# Bicycle-Rental-System
+# 🚲 Bicycle Rental System
+
+A web-based Bicycle Rental System built using **Python** and **Django**.  
+This project aims to provide an efficient and user-friendly platform for renting bicycles online.
+
+---
+
+## 📌 Project Overview
+
+The main idea behind this project is to create a system where users can:
+- 🚲 Rent bicycles (hourly or daily)
+- 🔍 Check bicycle availability
+- 🔄 Return rented bicycles
+
+An admin panel will also be included to:
+- 📦 Manage bicycle stock
+- 📊 Track rentals and user activity
+
+This system helps eliminate manual tracking and makes the rental process smooth and organized.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Backend:** Python, Django  
+- **Database:** SQLite  
+- **Frontend:** HTML, CSS (to be enhanced)  
+
+---
+
+## 📅 Development Progress
 
 ### 📅 Day 1 – Project Idea
+Started working on the Bicycle Rental System project. Defined the core idea and identified key features like renting, returning, and stock management. Planned to build the backend using Django and design the database models.
 
-Today, I started working on my Bicycle Rental System project using Python and Django. The main idea behind this project is to create a simple and efficient system where users can rent bicycles online based on their needs (hourly or daily).
+---
 
-The system will allow users to check available bicycles, rent them, and return them, while the admin can manage the stock and track rentals. This project aims to solve the problem of manual tracking and make the rental process more organized and user-friendly.
+### 📅 Day 2 – Project Setup & Django Initialization
+Set up the development environment and initialized the Django project. Created the main project structure and added a dedicated app for rental functionality. Configured SQLite database and successfully ran the local server. Also planned the database models.
 
-In the upcoming days, I will focus on building the backend using Django, designing the database models, and gradually developing the user interface.
+---
 
-### Day 2 – Project Setup & Django Initialization
+### 📅 Day 3 – Cloning Repository & Local Development Setup
+Cloned the GitHub repository to the local desktop environment to begin development. Verified the project structure, installed dependencies, and ran the server locally to ensure everything works correctly. Ready to start implementing core features.
 
-Today, I set up the development environment and initialized the project using the Django framework. I created the main project structure and added a dedicated app to handle the bicycle rental functionality.
+---
 
-I configured the basic settings, connected the default SQLite database, and ensured the project runs successfully on the local server. This step helped in laying a strong foundation for building the application.
+## 🚀 Upcoming Features
 
-Additionally, I started planning the database models required for the system, such as bicycles and rentals, which will be implemented in the next phase.
+- 🔐 User Authentication (Login/Register)
+- 🚲 Bicycle Booking System
+- 💰 Rental Cost Calculation
+- 📄 Billing & Reports
+- 🌐 Deployment
+
+---
