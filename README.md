@@ -1,17 +1,28 @@
-# Bicycle-Rental-System
+# 🚲 Bicycle Rental System
 
-### 📅 Day 1 – Project Idea
+## 📅 Day 1 – Project Idea
+Today, I started working on my Bicycle Rental System project using Python and Django.  
+The goal is to build a simple and efficient system where users can rent bicycles online (hourly or daily).
 
-Today, I started working on my Bicycle Rental System project using Python and Django. The main idea behind this project is to create a simple and efficient system where users can rent bicycles online based on their needs (hourly or daily).
+### Key Features Planned:
+- View available bicycles
+- Rent bicycles (hourly/daily)
+- Return bicycles
+- Admin can manage stock and track rentals
 
-The system will allow users to check available bicycles, rent them, and return them, while the admin can manage the stock and track rentals. This project aims to solve the problem of manual tracking and make the rental process more organized and user-friendly.
+This project aims to replace manual tracking with a more organized and user-friendly system.
 
-In the upcoming days, I will focus on building the backend using Django, designing the database models, and gradually developing the user interface.
+---
 
-### Day 2 – Project Setup & Django Initialization
+## 📅 Day 2 – Project Setup & Django Initialization
+Today, I set up the development environment and initialized the Django project.
 
-Today, I set up the development environment and initialized the project using the Django framework. I created the main project structure and added a dedicated app to handle the bicycle rental functionality.
+### Work Completed:
+- Created Django project and app
+- Configured settings
+- Connected SQLite database
+- Ran project on local server successfully
 
-I configured the basic settings, connected the default SQLite database, and ensured the project runs successfully on the local server. This step helped in laying a strong foundation for building the application.
-
-Additionally, I started planning the database models required for the system, such as bicycles and rentals, which will be implemented in the next phase.
+### Next Steps:
+- Design database models (Bicycle, Rental)
+- Start backend development
