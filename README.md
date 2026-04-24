@@ -52,12 +52,16 @@ Also created and landed a basic welcome page as the entry point of the applicati
 
 ---
 
-### 📅 Day 5 – Creating Models for Bicycle Rental System
+### 📅 Day 5 – Creating Models, Database Migration & Admin Setup
 
-Today, I started working on the database design by creating the core models for the Bicycle Rental System using Django ORM.
+Today, I worked on the backend foundation of the Bicycle Rental System by creating the core models using Django ORM.
 
-I began defining models for bicycles and rentals to represent the main functionalities of the application. This includes managing bicycle details such as availability and stock, along with rental records to track user bookings.
+I defined models for bicycles and rentals to represent the key functionalities of the application, including bicycle availability, stock management, and rental record tracking.
 
-I also explored Django models, prepared the database structure, and planned relationships between entities for smoother data handling in upcoming modules.
+After designing the models, I successfully generated and applied database migrations using SQLite, which established the project’s database schema.
 
-This marks the beginning of implementing the backend logic of the project.
+I also integrated the models with Django’s built-in admin panel, enabling administrative management of bicycles, stock, and rental records through the dashboard.
+
+This marks a major step in building the backend logic and preparing the project for implementing rental operations in the upcoming phases.
+
+---
