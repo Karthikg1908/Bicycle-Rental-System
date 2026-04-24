@@ -45,7 +45,14 @@ Cloned the GitHub repository to the local desktop environment to begin developme
 
 ---
 
-### ## 📅 Day 4 – Creating Models for Bicycle Rental System
+### 📅 Day 4 – GitHub Integration & Welcome Page
+
+Pushed the project and rental app folders to GitHub for version control and collaboration. Ensured the repository is properly structured and accessible.
+Also created and landed a basic welcome page as the entry point of the application, confirming that routing and templates are working correctly. This marks the beginning of frontend development and user interface setup.
+
+---
+
+### 📅 Day 5 – Creating Models for Bicycle Rental System
 
 Today, I started working on the database design by creating the core models for the Bicycle Rental System using Django ORM.
 
@@ -54,12 +61,3 @@ I began defining models for bicycles and rentals to represent the main functiona
 I also explored Django models, prepared the database structure, and planned relationships between entities for smoother data handling in upcoming modules.
 
 This marks the beginning of implementing the backend logic of the project.
-
----
-
-### 📅 Day 4 – GitHub Integration & Welcome Page
-
-Pushed the project and rental app folders to GitHub for version control and collaboration. Ensured the repository is properly structured and accessible.
-Also created and landed a basic welcome page as the entry point of the application, confirming that routing and templates are working correctly. This marks the beginning of frontend development and user interface setup.
-
----
