@@ -65,3 +65,15 @@ I also integrated the models with Django’s built-in admin panel, enabling admi
 This marks a major step in building the backend logic and preparing the project for implementing rental operations in the upcoming phases.
 
 ---
+
+### 📅 Day 6 – Templates Integration & UI Development
+
+Today, I focused on building the frontend structure of the Bicycle Rental System using Django templates.
+
+I created reusable HTML templates to display key pages such as the bicycle listing, rental interface, and return functionality. These templates were connected with Django views to dynamically render data from the backend.
+
+Additionally, I implemented basic styling using CSS to improve the user interface and make the application more user-friendly and visually organized. Template inheritance was also introduced to maintain consistency across pages and reduce code duplication.
+
+This step bridges the gap between backend logic and user interaction, making the system functional from a user’s perspective.
+
+---
