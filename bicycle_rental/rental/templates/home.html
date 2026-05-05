@@ -1,5 +1,4 @@
 {% load static %}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,18 +11,42 @@
 </head>
 <body>
 
-<div class="container">
-    <h1>🚲 Bicycle Rental System</h1>
+<!-- Navbar -->
+<nav class="navbar">
+    <h2>🚲 BikeRent</h2>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Rentals</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
 
-    <p>
-        Welcome to our bicycle rental platform built with Django.
-    </p>
+<!-- Hero Section -->
+<div class="hero">
+    <div class="hero-content">
+        <h1>Ride Anywhere, Anytime</h1>
+        <p>Affordable and eco-friendly bicycle rentals at your fingertips.</p>
+        <button onclick="showMessage()">Explore Rentals</button>
+        <p id="demo"></p>
+    </div>
+</div>
 
-    <button onclick="showMessage()">
-        Explore Rentals
-    </button>
+<!-- Features Section -->
+<div class="features">
+    <div class="card">
+        <h3>🚴 Easy Booking</h3>
+        <p>Book your bicycle in just a few clicks.</p>
+    </div>
 
-    <p id="demo"></p>
+    <div class="card">
+        <h3>💰 Affordable Prices</h3>
+        <p>Best rental prices for students and commuters.</p>
+    </div>
+
+    <div class="card">
+        <h3>🌍 Eco Friendly</h3>
+        <p>Reduce pollution and ride sustainably.</p>
+    </div>
 </div>
 
 <script src="{% static 'rental/js/script.js' %}"></script>
