@@ -96,3 +96,64 @@ button:hover {
         font-size: 32px;
     }
 }
+
+/* =========================
+   Dynamic Bicycle Listing
+========================= */
+
+.bike-section{
+    width:90%;
+    margin:60px auto;
+    text-align:center;
+}
+
+.bike-heading{
+    font-size:40px;
+    margin-bottom:40px;
+    color:#2563eb;
+}
+
+.bike-list{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.bike-box{
+    background:white;
+    width:260px;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+    transition:0.3s;
+}
+
+.bike-box:hover{
+    transform:translateY(-8px);
+}
+
+.bike-box h3{
+    color:#111827;
+    margin-bottom:15px;
+}
+
+.stock{
+    font-size:18px;
+    color:#4b5563;
+    margin-bottom:20px;
+}
+
+.rent-btn{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px 24px;
+    border-radius:10px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.rent-btn:hover{
+    background:#1d4ed8;
+}
