@@ -49,6 +49,40 @@
     </div>
 </div>
 
+<!-- Bicycle Listing Section -->
+
+<div class="bike-section">
+
+    <h2 class="bike-heading">Available Bicycles</h2>
+
+    <div class="bike-list">
+
+        {% for bike in bikes %}
+
+        <div class="bike-box">
+
+            <h3>{{ bike.name }}</h3>
+
+            <p class="stock">
+                Stock Available: {{ bike.stock }}
+            </p>
+
+            <button class="rent-btn">
+                Rent Now
+            </button>
+
+        </div>
+
+        {% empty %}
+
+        <p>No bicycles available.</p>
+
+        {% endfor %}
+
+    </div>
+
+</div>
+
 <script src="{% static 'rental/js/script.js' %}"></script>
 
 </body>
